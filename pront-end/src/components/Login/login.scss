@@ -3,5 +3,8 @@
 .login-wrap{
     width:100%;
     max-width:$web-w;
-    
+    margin: 0 auto;
+    .input{
+        display: block;
+    }
 }
