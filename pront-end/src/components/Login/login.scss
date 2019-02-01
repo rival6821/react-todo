@@ -1,15 +1,13 @@
 @import '../../styles/base.scss';
 
-.login-wrap{
-    width:100%;
-    max-width:$web-w;
-    margin: 0 auto;
-    .input{
-        display: block;
-        margin:20px 0;
+
+    .input input{
+        margin:10px 0;
     }
     button{
         margin:0 auto;
         display: block;
     }
-}
+    .loginBtn{
+        text-align: center;
+    }
