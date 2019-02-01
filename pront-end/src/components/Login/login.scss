@@ -1,7 +1,9 @@
 @import '../../styles/base.scss';
 
-.input input{
-    margin:10px 0;
+.input{
+    input{
+        margin-top:10px;
+    }
 }
 button{
     margin:0 auto;
@@ -14,4 +16,9 @@ button{
     &:hover{
         text-decoration: underline;
     }
+}
+.main-logo{
+    display: block;
+    width:50%;
+    margin:0 auto 10px auto;
 }

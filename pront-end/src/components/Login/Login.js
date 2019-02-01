@@ -5,8 +5,9 @@ import Input from '@material-ui/core/Input';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
+import logo from '../../img/logo.png';
 
-const m_styles = theme => ({
+const m_styles = () => ({
   root: {
     flexGrow: 1,
   },
@@ -18,6 +19,7 @@ const m_styles = theme => ({
     width:'100%',
     maxWidth:'500px',
     margin: '0 auto',
+    marginTop:'30px',
     padding:'50px',
   },
 });
@@ -29,6 +31,7 @@ function Login(props){
     
     return (
         <Card className={classes.card}>
+            <img src={logo} alt={'logo'} className={cx('main-logo')}/>
             <Input type="text" autoFocus placeholder="이메일" className={cx('input','email-input')} fullWidth/>
             <Input type="password" placeholder="비밀번호" className={cx('input','password-input')} fullWidth/>
             <Button variant="contained" color="primary" size="large" className={classes.button} fullWidth>
