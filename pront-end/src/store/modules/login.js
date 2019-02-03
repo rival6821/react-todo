@@ -23,10 +23,10 @@ const initialState = {
 export default handleActions({
     [ID_INPUT] : (state, action) => ({
         ...state,
-        email : action.email,
+        email : action.payload
     }),
     [PW_INPUT] : (state, action) => ({
         ...state,
-        pw : action.pw,
+        pw : action.payload
     }),
 }, initialState);
