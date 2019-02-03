@@ -1,24 +1,35 @@
 @import '../../styles/base.scss';
 
-.input{
-    input{
-        margin-top:10px;
-    }
-}
-button{
-    margin:0 auto;
-    display: block;
-}
-.find-password{
-    text-align: center;
+.card{
+    width:100%;
+    max-width:500px;
+    margin: 0 auto;
     margin-top:30px;
-    cursor:pointer;
-    &:hover{
-        text-decoration: underline;
+    padding:50px;
+    .main-logo{
+        display: block;
+        width:50%;
+        margin:0 auto 10px auto;
     }
-}
-.main-logo{
-    display: block;
-    width:50%;
-    margin:0 auto 10px auto;
+    .button{
+        display:block;
+        margin-top:30px;
+    }
+    .input{
+        input{
+            margin-top:10px;
+        }
+    }
+    button{
+        margin:0 auto;
+        display: block;
+    }
+    .find-password{
+        text-align: center;
+        margin-top:30px;
+        cursor:pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
