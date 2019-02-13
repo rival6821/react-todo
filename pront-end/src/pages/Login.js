@@ -1,10 +1,10 @@
 import React from 'react';
-import LoginComponent from '../containers/LoginContainer';
+import LoginContainer from '../containers/LoginContainer';
 
 const Login = () => {
     return (
         <div>
-            <LoginComponent/>
+            <LoginContainer/>
         </div>
     );
 };

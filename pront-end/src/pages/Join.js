@@ -1,10 +1,10 @@
 import React from 'react';
-import JoinComponent from '../components/Join/Join';
+import JoinContainer from '../containers/JoinContainer';
 
 const Join = () => {
     return (
         <div>
-            <JoinComponent/>
+            <JoinContainer/>
         </div>
     );
 };
