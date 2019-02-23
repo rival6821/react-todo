@@ -16,7 +16,7 @@ function Login({ onEmailChange, onPwChange, emailInput, pwInput }){
             onChange={onEmailChange} value={emailInput}/>
             <Input type="password" placeholder="비밀번호" className={cx('input','password-input')} fullWidth
             onChange={onPwChange} value={pwInput}/>
-            <Button variant="contained" color="primary" size="large" className={cx('button')} fullWidth>
+            <Button variant="contained" color="primary" size="large" className={cx('button')} fullWidth onClick={()=>{window.location.href="./List"}}>
                 로그인
             </Button>
             <div className={cx('find-password')}>비밀번호를 잊으셧나요?</div>
